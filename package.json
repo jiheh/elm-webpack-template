@@ -1,0 +1,22 @@
+{
+  "name": "elmWebpackTemplate",
+  "version": "1.0.0",
+  "description": "Starter Template for Elm 0.19 and Webpack",
+  "main": "server/start.js",
+  "scripts": {
+    "start": "node server/start.js",
+    "build": "webpack --watch",
+    "heroku-postbuild": "webpack -p"
+  },
+  "author": "Jiheh Ritterling",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "elm-webpack-loader": "^5.0.0",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

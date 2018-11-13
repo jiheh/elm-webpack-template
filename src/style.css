@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  table-layout:fixed;
+}
+
+th, td {
+   border: 1px solid black;
+}
+
+/* Playing around with responsive design */
+@media only screen and (max-width: 979px) {
+  body {
+      background-color: red;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+      background-color: grey;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+      background-color: black;
+  }
+}
